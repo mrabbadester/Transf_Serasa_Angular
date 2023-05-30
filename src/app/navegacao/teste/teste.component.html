@@ -1,0 +1,46 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="text-center">
+<b>Treinamento</b>
+
+<p>Nome: {{ minhaVariavel }} </p>
+<p>Sobrenome: {{ Sobrenome}} </p>
+
+<a [href]="linkSite">Google</a>
+<br>
+<br>
+ 
+<button class="btn btn-success" [disabled]="contador < 5">Pagina</button>
+<button class="btn btn-warning" (click)= 'adicionaUm()'> Somar + 1</button>
+<p><b>O valor do contador é {{ contador }}</b></p>
+<button class="btn btn-danger" (click)= 'zerarContador()'> Zero</button>
+
+<br>
+<br>
+
+<!--<button (click)= 'adicionaUm()'> Somar + 1</button>-->
+<!--<button (click)= 'menosUm()'> Somar - 1</button>-->
+
+<!--<p><b>O valor do contador é {{ contador }}</b></p>-->
+
+<!--<input type="text" [(ngModel)]="nome" placeholder="Digite seu nome">-->
+
+<!--<p>Nome do evento: {{evento}}</p>-->
+
+
+<input type="text" (keyup)="teclar($event)" placeholder="Digite o seu nome"> 
+<br>
+<br>
+
+<label> Seu nome é {{ nome }}</label>
+<br>
+
+<input type="text" [(ngModel)]="nome" placeholder="Digite seu nome">
+
+
+
+</div>

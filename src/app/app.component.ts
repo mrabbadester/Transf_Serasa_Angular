@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+
+// isso é um componente
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'serasa-tranformese';
+
+  // String nome = "Serasa";
 }
+
+
+// public class Cliente 
+// exports class ClienteComponet
